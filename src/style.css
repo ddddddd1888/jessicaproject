@@ -6,18 +6,22 @@ html {
 }
 
 body {
+  font-family: noigroteskregular;
   margin: 0;
   background-color: var(--clr-light-black);
 }
 
 .appstore {
   position: fixed;
-  display: flex;
+  bottom:0;
+  right:0;
+  margin: 0rem;
+  scale: 0.7;
 }
 
 @font-face {
-  font-family: MOBO;
-  src: url(../public/fonts/MOBO.otf);
+  font-family: "MOBO";
+  src: url("../public/fonts/MOBO.otf")  format('opentype');
 }
 
 @font-face {
@@ -35,12 +39,14 @@ body {
   src: url(../public/fonts/basiersquaremono-regular-webfont.ttf);
 }
 @font-face {
-font-family: noigroteskregular;
-src: url(../public/fonts/NoiGrotesk-Regular.otf);
+font-family: "noigroteskregular";
+src: url('../public/fonts/NoiGroteskTrial-Regular.ttf');
+font-weight: 400;
 }
 
 @font-face {
-  font-family: noigrotesk;
-  src: url(../public/fonts/NoiGrotesk-Medium.otf);
+  font-family: "noigrotesk";
+  src: url('../public/fonts/NoiGroteskTrial-Medium.ttf');
+  font-weight: 500;
   }
   
