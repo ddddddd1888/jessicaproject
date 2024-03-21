@@ -1,0 +1,46 @@
+html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--clr-light-black);
+}
+
+.appstore {
+  position: fixed;
+  display: flex;
+}
+
+@font-face {
+  font-family: MOBO;
+  src: url(../public/fonts/MOBO.otf);
+}
+
+@font-face {
+  font-family: Shippori;
+  src: url(../public/fonts/ShipporiGothicB2-Bold.ttf);
+}
+
+@font-face {
+  font-family: basier;
+  src: url(../public/fonts/basiercircle-regular-webfont.ttf);
+}
+
+@font-face {
+  font-family: basiermono;
+  src: url(../public/fonts/basiersquaremono-regular-webfont.ttf);
+}
+@font-face {
+font-family: noigroteskregular;
+src: url(../public/fonts/NoiGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: noigrotesk;
+  src: url(../public/fonts/NoiGrotesk-Medium.otf);
+  }
+  
