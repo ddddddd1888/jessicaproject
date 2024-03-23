@@ -11,7 +11,11 @@
     --clr-white: #ffffff;
     --clr-sand:#fbf0c2;
     --clr-purple:#741bd4;
-  
+    --clr-gray: #252525;
+    --clr-shading:rgba(25, 25, 25, 0.5);
+    --clr-light-shading:rgba(241,241,241,0.7);
+    --clr-dark-bg:#1a1a1a;
+    --clr-light-gray:#7a7a7a;
     /* sizes */
     --size-xxs: 0.5rem;
     --size-xs: 0.75rem;
@@ -28,4 +32,14 @@
     --size-8xl: 6rem;
     --size-9xl: 8rem;
     --size-10xl: 10rem;
+  }
+  
+  .btn {
+    padding-bottom:1.2rem;
+    padding-top:1.2rem;
+    padding-left:2.4rem;
+    padding-right:2.4rem;
+    justify-content: center;
+    display:flex;
+    border-radius: 9999999px;
   }

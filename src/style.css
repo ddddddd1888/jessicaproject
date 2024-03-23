@@ -8,15 +8,20 @@ html {
 body {
   font-family: noigroteskregular;
   margin: 0;
-  background-color: var(--clr-light-black);
+  background-color: var(--clr-dark-bg);
 }
 
-.appstore {
-  position: fixed;
-  bottom:0;
-  right:0;
-  margin: 0rem;
-  scale: 0.7;
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--clr-light-gray);
+}
+
+strong {
+  font-family: untitledsansmedium;
+  color: var(--clr-light);
 }
 
 @font-face {
@@ -50,3 +55,22 @@ font-weight: 400;
   font-weight: 500;
   }
   
+
+@font-face {
+  font-family: "untitledsansmedium";
+  src: url('../public/fonts/TestUntitledSans-Medium.otf');
+  font-weight: 600;
+  }
+  
+  
+@font-face {
+  font-family: "untitledsansregular";
+  src: url('../public/fonts/TestUntitledSans-Regular.otf');
+  font-weight: 500;
+  }
+
+@font-face {
+  font-family: "untitledsansbold";
+  src: url('../public/fonts/TestUntitledSans-Bold.otf');
+  font-weight: 700;
+  }

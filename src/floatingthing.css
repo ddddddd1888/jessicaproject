@@ -1,0 +1,63 @@
+.floatingthing {
+    padding: 0;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 0;
+    z-index: 9;
+    color: var(--clr-light-black);
+    font-family: untitledsansmedium;
+    height: 5rem;
+    bottom: 0.8rem;
+}
+
+.learnmore {
+    justify-content: center;
+    border-radius: 999999px;
+    padding: 1.2rem;
+    background-color: var(--clr-light-shading);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    filter: blur(20);
+    backdrop-filter: blur(10px);
+}
+
+.learnmore a {
+    font-size: 1.2rem;
+    color: var(--clr-light-black);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.learnmore svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.appstore {
+    margin: 1rem;
+}
+
+.floatingthing__list {
+    padding: 1.2rem;
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+    background-color: var(--clr-light-shading);
+    border-radius: 999999px;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 3rem;
+    filter: blur(20);
+    backdrop-filter: blur(10px);
+}
+
+.floatingthing__item a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--clr-light-black);
+}
